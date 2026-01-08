@@ -11,8 +11,13 @@ python3 kerr_blackhole_vae_v1_PATCHED.py
 Output (NON deterministic, will change with every run as Synthetic Data Gen is in the script itself)
 
 python3 kerr_blackhole_vae_v1_PATCHED.py 
+
+
 KERR BLACK HOLE - LORENTZIAN VAE
+
+
 Modak-Walawalkar Framework Extension
+
 ============================================================
 
 Generating Kerr geodesics...
