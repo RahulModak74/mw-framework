@@ -8,7 +8,7 @@ pip3 install torch numpy pyro-ppl scipy
 
 python3 kerr_blackhole_vae_v1_PATCHED.py
 
-Output (NON deterministic, will change with every run as Synthetic Data Gen is in the script itself)
+Output (While submitting the manuscript the process was NON DETERMINISTIC but we have made it DETERMINISTIC  now for reproducibility)
 
 python3 kerr_blackhole_vae_v1_PATCHED.py 
 
