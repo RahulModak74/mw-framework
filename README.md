@@ -6,7 +6,7 @@ Quick Start: Kerr Black Holes
 
 pip3 install torch numpy pyro-ppl scipy
 
-python3 kerr_blackhole_vae_v1_PATCHED.py
+python3 kerr_blackhole_vae_v1_PATCHED.py (Data is generated within file.. So pl use below 2 files for simplicity)
 
 Output (NON DETERMINISTIC)
 
