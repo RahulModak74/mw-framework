@@ -17,8 +17,11 @@ python3 kerr_1_generate_data.py --samples 10000 --seed 42
 Then TEST it:
 
 python3 kerr_2_train_and_test_pyro.py --data kerr_geodesics.npy
+
 ======================================================================
+
 KERR VAE TRAINING & TESTING (WITH FIXED DATA)
+
 ======================================================================
 
 Loading data from: kerr_geodesics.npy
