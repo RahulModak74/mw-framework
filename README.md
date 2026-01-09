@@ -6,15 +6,13 @@ Quick Start: Kerr Black Holes
 
 pip3 install torch numpy pyro-ppl scipy
 
-python3 kerr_blackhole_vae_v1_PATCHED.py (Data is generated within file.. So pl use below 2 files for simplicity)
-
-Output (NON DETERMINISTIC)
+Output 
 
 First GENERATE test Data:
 
 python3 kerr_1_generate_data.py --samples 10000 --seed 42
 
-Then TEST it:
+Then TEST it:(NON DETERMINISTIC)
 
 python3 kerr_2_train_and_test_pyro.py --data kerr_geodesics.npy
 
@@ -112,6 +110,10 @@ rahul@rahul-LOQ-15IRH8:~/V4_PYRO$
 
 
 
+
+You can also use all in one file below but above is simple:
+
+python3 kerr_blackhole_vae_v1_PATCHED.py (Data is generated within file.. So pl use above  2 files for simplicity)
 
 
 
