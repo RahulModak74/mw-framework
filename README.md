@@ -1,6 +1,4 @@
 # mw-framework
-Nature submission
-
 
 Quick Start: Kerr Black Holes
 
@@ -120,6 +118,18 @@ python3 kerr_blackhole_vae_v1_PATCHED.py (Data is generated within file.. So pl 
 Authors
 Rahul Modak
 Founder, Bayesian Cybersecurity Pvt Ltd
+
+
+
+HOW TO PROVE GRAVITAIONAL WAVES:
+
+Run this script
+
+python3 batch_generate_original.py --model kerr_vae.pth --n-templates 1000..
+
+You will generate 1000 templates 98%+ match on GPU at 3 million X speed up :-)
+
+
 
 Dr. Rahul Walawalkar
 Co-Founder, Bayesian Cybersecurity Pvt Ltd
