@@ -98,9 +98,9 @@ Performance:
 ## 📖 Documentation
 
 ### Core Papers
-- **Framework Overview:** [Nature_MW_Framework.pdf](Nature_MW_Framework.pdf)
-- **Technical Details:** [Detailed_Version_Of_Nature_Companion.pdf](Detailed_Version_Of_Nature_Companion.pdf)
-- **Physics Priors:** [Explaining_Our_Priors.md](Explaining_Our_Priors.md)
+- **Framework Overview:** Nature_MW_Framework.pdf (Nature Comm has rejected because its not interesting for their audiecne)
+-
+- **Physics Priors:** Explaining_Our_Priors.md
 
 ### Publications
 - **LinkedIn Article (GW):** [Gravitational Wave Output](https://www.linkedin.com/pulse/gravitational-wave-output-rahul-modak-vncge)
@@ -196,7 +196,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-Built with: PyTorch, Pyro, NumPy, SciPy
+Built with: PyTorch, Pyro, NumPy, SciPy, Claude AI, DeepSeek AI
 
 Inspired by: Einstein's geometric vision, Noether's theorem, Bayesian inference, Automatic differentiation
 
@@ -211,7 +211,6 @@ Special thanks to the open-source ML community.
 - Quantum chemistry (molecular dynamics) - Q2 2026
 - Computational fluid dynamics (Navier-Stokes) - Q3 2026
 
-**Follow development:** [GitHub Discussions](https://github.com/RahulModak74/mw-framework/discussions)
 
 ---
 
