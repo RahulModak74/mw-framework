@@ -104,6 +104,7 @@ Performance:
 
 ### Publications
 - **LinkedIn Article (GW):** [Gravitational Wave Output](https://www.linkedin.com/pulse/gravitational-wave-output-rahul-modak-vncge)
+
 - **LinkedIn Article (Framework):** [M-W Framework as GR Superset](https://www.linkedin.com/pulse/modakwalawalkar-framework-superset-gr-geometric-scope-rahul-modak-pqlge)
 
 ---
