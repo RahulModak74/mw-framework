@@ -15,7 +15,11 @@ The M-W Framework demonstrates that **any physical conservation law can be encod
 
 **Key Innovation:** Physics constraints → Bayesian priors → Learned geometry → Automatic computation
 
-LinkedIn Article:https://www.linkedin.com/pulse/modakwalawalkar-framework-superset-gr-geometric-scope-rahul-modak-jyqyf/?trackingId=aMOFEp8gRrihzvy0zYmu2Q%3D%3D
+LinkedIn Article:
+
+https://www.linkedin.com/pulse/cyber-security-solving-gravitational-waves-mw-framework-rahul-modak-t6euf/?trackingId=6SvJVaLnToqLkflJZoQgtQ%3D%3D
+
+https://www.linkedin.com/pulse/modakwalawalkar-framework-superset-gr-geometric-scope-rahul-modak-jyqyf/?trackingId=aMOFEp8gRrihzvy0zYmu2Q%3D%3D
 
 (Do not have arxiv access so posting on Github)
 ---
