@@ -7,7 +7,7 @@
 
 **A unified computational framework where conservation laws automatically emerge as learnable geometric structure.**
 
-Theory: Bayesian_General_Relativity.pdf
+**Theory:** [Bayesian_General_Relativity.pdf](Bayesian_General_Relativity.pdf)
 
 ---
 
@@ -17,13 +17,12 @@ The M-W Framework demonstrates that **any physical conservation law can be encod
 
 **Key Innovation:** Physics constraints → Bayesian priors → Learned geometry → Automatic computation
 
-LinkedIn Article:
+**LinkedIn Articles:**
+- [Cyber Security to Solving Gravitational Waves](https://www.linkedin.com/pulse/cyber-security-solving-gravitational-waves-mw-framework-rahul-modak-t6euf/)
+- [M-W Framework as GR Superset](https://www.linkedin.com/pulse/modakwalawalkar-framework-superset-gr-geometric-scope-rahul-modak-jyqyf/)
 
-https://www.linkedin.com/pulse/cyber-security-solving-gravitational-waves-mw-framework-rahul-modak-t6euf/?trackingId=6SvJVaLnToqLkflJZoQgtQ%3D%3D
+*(Currently seeking arXiv endorsement - posted on GitHub for open validation)*
 
-https://www.linkedin.com/pulse/modakwalawalkar-framework-superset-gr-geometric-scope-rahul-modak-jyqyf/?trackingId=aMOFEp8gRrihzvy0zYmu2Q%3D%3D
-
-(Do not have arxiv access so posting on Github)
 ---
 
 ## ✅ Validated Across Domains
@@ -33,7 +32,7 @@ https://www.linkedin.com/pulse/modakwalawalkar-framework-superset-gr-geometric-s
 | **Battery Degradation** | 32D | Riemannian | MAE: 0.008, 20-200× speedup | ✅ Commercial deployment |
 | **Cybersecurity** | 57D | Riemannian | AUC: 0.89, real-time detection | ✅ Enterprise validation |
 | **Kerr Spacetime** | 4D | Lorentzian | Frame dragging emerges, Van Vleck computable | ✅ Proof-of-concept |
-| **Gravitational Waves** | 4D | Lorentzian | 98.5% PN match, 6.9M× speedup | ✅ Template generation |
+| **Gravitational Waves** | 4D | Lorentzian | 98.5% PN match, 6.9M× speedup | ⚠️ Validation ongoing (see below) |
 
 ---
 
@@ -77,6 +76,61 @@ python3 batch_generate_original.py --model kerr_vae.pth --n-templates 10
 
 ---
 
+## ⚠️ Known Limitations & Validation Status
+
+### Gravitational Wave Amplitude Calibration
+
+**Current Issue:** The raw gravitational wave amplitude from the learned geometry requires post-hoc calibration:
+
+```
+Auto-calibrated amplitude:
+  Raw output:    1.222e-08
+  Target (PN):   1.321e-04
+  Scaling factor: 1.082e+04 (10,804×)
+```
+
+**What this means:**
+- ✅ **Waveform phase/frequency:** Accurately captured by learned geometry
+- ✅ **Cross-polarization ratio:** Correct (h₊ vs h× relative amplitudes)
+- ⚠️ **Absolute amplitude:** Requires empirical calibration factor
+
+**Why this happens:**
+1. Training data uses approximate geodesics (not exact solutions)
+2. Van Vleck determinant normalization needs refinement
+3. Quadrupole formula implementation may have unit conversion issues
+
+**Validation roadmap:**
+
+| Phase | Task | Timeline | Status |
+|-------|------|----------|---------|
+| **Phase 1** | Schwarzschild validation (exact analytical comparison) | Feb 2026 | 🔄 In progress |
+| **Phase 2** | Exact Kerr geodesic generation (Carter equations) | Mar 2026 | 📋 Planned |
+| **Phase 3** | SXS waveform comparison (no rescaling) | Apr-May 2026 | 📋 Planned |
+| **Phase 4** | Numerical Relativity code comparison | Jun-Aug 2026 | 📋 Planned |
+
+**How to help:** If you have expertise in:
+- Exact geodesic integration (Carter equations)
+- Numerical relativity validation
+- Post-Newtonian theory
+
+Please open an issue or contact us!
+
+### What Works Reliably (Production-Ready)
+
+✅ **Battery Analytics (32D):** No calibration needed, MAE = 0.008, deployed commercially
+
+✅ **Cybersecurity (57D):** No calibration needed, AUC = 0.89, enterprise validated
+
+✅ **Geometric Learning:** VAE latent space consistently learns correct metric signature across all domains
+
+### What Needs More Validation
+
+⚠️ **Gravitational Waves:** Phase/frequency excellent, amplitude needs work
+
+⚠️ **Absolute Physical Units:** Conversion between geometric and SI units requires attention
+
+---
+
 ## 📊 Key Results
 
 ### Kerr Black Hole Geometry
@@ -89,7 +143,7 @@ Signature: (-,+,+,+) verified ✓
 
 ### Gravitational Wave Templates
 ```
-Match Quality:
+Match Quality (after calibration):
   h₊ polarization: 98.51% ± 0.00%
   h× polarization: 99.36% ± 0.00%
 
@@ -99,19 +153,19 @@ Performance:
   Speedup vs NR: 6.9 × 10⁶
 ```
 
+**Note:** Match quality is with Post-Newtonian approximations, not full Numerical Relativity. Independent NR validation pending (Phase 4).
+
 ---
 
 ## 📖 Documentation
 
 ### Core Papers
-- **Framework Overview:** Nature_MW_Framework.pdf (Nature Comm has rejected because its not interesting for their audiecne)
--
-- **Physics Priors:** Explaining_Our_Priors.md
+- **Framework Theory:** [Bayesian_General_Relativity.pdf](Bayesian_General_Relativity.pdf)
+- **Physics Priors:** [Explaining_Our_Priors.md](Explaining_Our_Priors.md)
 
-### Publications
-- **LinkedIn Article (GW):** [Gravitational Wave Output](https://www.linkedin.com/pulse/gravitational-wave-output-rahul-modak-vncge)
-
-- **LinkedIn Article (Framework):** [M-W Framework as GR Superset](https://www.linkedin.com/pulse/modakwalawalkar-framework-superset-gr-geometric-scope-rahul-modak-pqlge)
+### Publications & Media
+- **LinkedIn (GW Application):** [Gravitational Wave Output](https://www.linkedin.com/pulse/gravitational-wave-output-rahul-modak-vncge)
+- **LinkedIn (Framework Theory):** [M-W Framework as GR Superset](https://www.linkedin.com/pulse/modakwalawalkar-framework-superset-gr-geometric-scope-rahul-modak-pqlge)
 
 ---
 
@@ -152,6 +206,40 @@ g_ij(z) = J^T · W · J
 
 ---
 
+## 🔬 Independent Validation Invited
+
+**We actively encourage independent validation and replication!**
+
+### Validation Challenges
+We invite the community to test and improve:
+
+1. **Schwarzschild Benchmark** (High Priority)
+   - Generate exact Schwarzschild geodesics
+   - Train M-W framework
+   - Compare Van Vleck determinant to analytical formula
+   - Target: Agreement within 10⁻⁶
+
+2. **Amplitude Scaling** (High Priority)
+   - Investigate physical origin of 10,000× factor
+   - Test alternative normalization schemes
+   - Compare with numerical relativity units
+
+3. **Alternative Spacetimes**
+   - Reissner-Nordström (charged black holes)
+   - FLRW (cosmology)
+   - Alcubierre (warp drive metrics)
+
+4. **Higher-Dimensional Physics**
+   - Kaluza-Klein theories
+   - String theory compactifications
+
+**Rewards for validation:**
+- Co-authorship on validation papers
+- Acknowledgment in framework documentation
+- Collaboration opportunities
+
+---
+
 ## 🎓 Citation
 
 If you use this framework in your research, please cite:
@@ -160,7 +248,8 @@ If you use this framework in your research, please cite:
   author = {Modak, Rahul and Walawalkar, Rahul},
   title = {Modak-Walawalkar Framework: Physics-Constrained Geometric Learning},
   year = {2026},
-  url = {https://github.com/RahulModak74/mw-framework}
+  url = {https://github.com/RahulModak74/mw-framework},
+  note = {Validation ongoing - see repository for current status}
 }
 ```
 
@@ -171,12 +260,15 @@ If you use this framework in your research, please cite:
 We welcome independent validation, testing, and contributions!
 
 **How to contribute:**
-1. Test on your own systems and report results (open an issue)
-2. Try with different Kerr parameters (spin, mass)
-3. Extend to other spacetimes (Schwarzschild, Reissner-Nordström)
-4. Apply framework to new physics domains
+1. **Test and report:** Try on your systems, report results (open an issue)
+2. **Validate:** Compare against analytical solutions or NR codes
+3. **Extend:** Apply to new spacetimes or physics domains
+4. **Debug:** Help resolve the amplitude calibration issue
+5. **Document:** Improve tutorials, add examples
 
 **Questions or bugs?** Open an [issue](https://github.com/RahulModak74/mw-framework/issues)
+
+**Found a solution to amplitude scaling?** We'll add you as a contributor!
 
 ---
 
@@ -189,7 +281,8 @@ Founder, Bayesian Cybersecurity Pvt Ltd
 
 **Dr. Rahul Walawalkar**  
 Co-Founder, Bayesian Cybersecurity Pvt Ltd  
-Senior Partner, Caret Capital
+Senior Partner, Caret Capital  
+🔗 [LinkedIn](https://www.linkedin.com/in/rahulwalawalkar/)
 
 ---
 
@@ -197,30 +290,66 @@ Senior Partner, Caret Capital
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-**Commercial use:** Open for academic research. For commercial applications, please contact us.
+**Commercial use:** Open for academic research. For commercial applications in battery analytics or cybersecurity, please contact us.
 
 ---
 
 ## 🙏 Acknowledgments
 
-Built with: PyTorch, Pyro, NumPy, SciPy, Claude AI, DeepSeek AI
+**Built with:** PyTorch, Pyro, NumPy, SciPy
 
-Inspired by: Einstein's geometric vision, Noether's theorem, Bayesian inference, Automatic differentiation
+**AI Assistance:** Claude AI (Anthropic), DeepSeek AI
 
-Special thanks to the open-source ML community.
+**Inspired by:** Einstein's geometric vision, Noether's theorem, Bayesian inference, Automatic differentiation
+
+Special thanks to the open-source ML and physics communities.
 
 ---
 
-## 🔮 What's Next
+## 🔮 Roadmap
 
-**Upcoming validations:**
-- Climate AI (hurricane/monsoon forecasting) - Q1 2026
-- Quantum chemistry (molecular dynamics) - Q2 2026
-- Computational fluid dynamics (Navier-Stokes) - Q3 2026
+**Current Focus (Q1 2026):**
+- ✅ Schwarzschild analytical validation
+- ✅ Resolve amplitude calibration issue
+- ✅ Exact Kerr geodesic integration
 
+**Near-term (Q2-Q3 2026):**
+- Climate AI (hurricane/monsoon forecasting)
+- Quantum chemistry (molecular dynamics)
+- Independent NR code comparison
+
+**Long-term (2026-2027):**
+- LIGO/Virgo template library contribution
+- Computational fluid dynamics (Navier-Stokes)
+- Peer-reviewed publication after validation
+
+---
+
+## 📈 Version History
+
+**v0.1.0 (Jan 2026)** - Initial public release
+- Kerr spacetime geometry learning demonstrated
+- Gravitational wave proof-of-concept (98.5% match with calibration)
+- Battery and cybersecurity applications validated
+- Known issue: Amplitude requires 10,000× calibration
+- **Status:** Research prototype, validation ongoing
 
 ---
 
 **"Physics constraints = Bayesian priors → Emergent geometry → Automatic computation"**
 
 *A new paradigm for computational physics.*
+
+---
+
+## ⚖️ Transparency Statement
+
+This is an **active research project** in early validation stages. We prioritize transparency about limitations:
+
+✅ **What's validated:** Battery analytics, cybersecurity, geometric learning, computational speedups
+
+⚠️ **What's preliminary:** Gravitational wave absolute amplitudes, comparison with full Numerical Relativity
+
+🔄 **What's in progress:** Schwarzschild benchmark, exact geodesic integration, NR code comparison
+
+We welcome scrutiny, criticism, and independent replication. Science advances through validation, not proclamation.
