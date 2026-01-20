@@ -161,7 +161,7 @@ Performance:
 
 ### Core Papers
 - **Framework Theory:** [Bayesian_General_Relativity.pdf](Bayesian_General_Relativity.pdf)
-- **Physics Priors:** [Explaining_Our_Priors.md](Explaining_Our_Priors.md)
+- **Physics Priors:** Same Repo above - Explaining_Our_Priors.md
 
 ### Publications & Media
 - **LinkedIn (GW Application):** [Gravitational Wave Output](https://www.linkedin.com/pulse/gravitational-wave-output-rahul-modak-vncge)
