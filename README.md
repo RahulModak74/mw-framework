@@ -103,10 +103,10 @@ Auto-calibrated amplitude:
 
 | Phase | Task | Timeline | Status |
 |-------|------|----------|---------|
-| **Phase 1** | Schwarzschild validation (exact analytical comparison) | Feb 2026 | 🔄 In progress |
-| **Phase 2** | Exact Kerr geodesic generation (Carter equations) | Mar 2026 | 📋 Planned |
-| **Phase 3** | SXS waveform comparison (no rescaling) | Apr-May 2026 | 📋 Planned |
-| **Phase 4** | Numerical Relativity code comparison | Jun-Aug 2026 | 📋 Planned |
+| **Phase 1** | Schwarzschild validation (exact analytical comparison) | 2026 | 🔄 In progress |
+| **Phase 2** | Exact Kerr geodesic generation (Carter equations) | TBD | 📋 Planned |
+| **Phase 3** | SXS waveform comparison (no rescaling) | TBD | 📋 Planned |
+| **Phase 4** | Numerical Relativity code comparison | TBD | 📋 Planned |
 
 **How to help:** If you have expertise in:
 - Exact geodesic integration (Carter equations)
