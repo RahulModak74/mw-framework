@@ -7,6 +7,8 @@
 
 **A unified computational framework where conservation laws automatically emerge as learnable geometric structure.**
 
+Theory: Bayesian_General_Relativity.pdf
+
 ---
 
 ## 🎯 What This Is
