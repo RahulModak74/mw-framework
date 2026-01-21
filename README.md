@@ -9,6 +9,15 @@
 
 **Theory:** [Bayesian_General_Relativity.pdf](Bayesian_General_Relativity.pdf)
 
+
+Quick Run: Clone the repo make sure kerr_vae.pt model is there and run
+
+python3 gravitational_wave_inference_STABLE_viz.py --model kerr_vae.pth 
+
+2 Visualizations will be saved as well along with output
+
+1. gw_analysis_visual_simple.png
+2. gw_analysis_visual.png
 ---
 
 ## 🎯 What This Is
