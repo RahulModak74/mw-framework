@@ -1,5 +1,12 @@
 # Modak-Walawalkar (M-W) Framework
-## Physics-Constrained Geometric Learning for Computational Physics
+## Physics-Constrained Geometric Learning for Computational Physics - THINK MANIFOLDS
+
+
+We want to help people migrate from traditional thinking which is in terms of PDEs, identify domain - define and solve complex PDEs for hours- create risk measures for the domain - silo approach.
+
+To Bayesian Manifold Approach
+
+Define problem -- understand literature -- define priors -- create/ get sample data -- train manifold (e.g. with pyro-pytorch) --- distance from manifold what we call MW distance is universal risk measure--- achieve 1000-1000,000 X speed ups on GPU!
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
