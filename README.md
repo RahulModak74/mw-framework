@@ -369,3 +369,8 @@ This is an **active research project** in early validation stages. We prioritize
 🔄 **What's in progress:** Schwarzschild benchmark, exact geodesic integration, NR code comparison
 
 We welcome scrutiny, criticism, and independent replication. Science advances through validation, not proclamation.
+
+
+DOI:
+
+10.5281/zenodo.19305273
