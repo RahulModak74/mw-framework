@@ -12,6 +12,8 @@ Define problem -- understand literature -- define priors -- create/ get sample d
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
+### This repo is a specific implementaion use case of MW framework -- derive GR from MW approach
+
 **A unified computational framework where conservation laws automatically emerge as learnable geometric structure.**
 
 **Theory:** [Bayesian_General_Relativity.pdf](Bayesian_General_Relativity.pdf)
