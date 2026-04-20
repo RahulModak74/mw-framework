@@ -1,6 +1,6 @@
 # Modak-Walawalkar (M-W) Framework
 ## Physics-Constrained Geometric Learning for Computational Physics - THINK MANIFOLDS
-
+## Pl see file MW_Framework_Quantum_Vision.pdf to understand end to end vision of MW framework. Doing Quantum computing on Classical Hardware is end goal.
 
 We want to help people migrate from traditional thinking which is in terms of PDEs, identify domain - define and solve complex PDEs for hours- create risk measures for the domain - silo approach.
 
